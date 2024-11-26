@@ -1,0 +1,25 @@
+.card-header {
+  background: linear-gradient(
+    90deg,
+    #920000,
+    /* Merah maroon */ #1470f2 /* Merah tua (ganti biru dengan merah tua) */
+  ); /* Gradient merah maroon ke merah tua */
+  border-radius: 10px 10px 0 0; /* Menambahkan sudut melengkung pada bagian atas */
+}
+
+/* Mengubah warna latar belakang pada bg-gradient-primary */
+.bg-gradient-primary {
+  background: linear-gradient(
+    90deg,
+    #920000,
+    /* Merah maroon */ #1470f2 /* Merah tua (ganti biru dengan merah tua) */
+  ); /* Gradient merah maroon ke merah tua */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px 10px 0 0; /* Menambahkan sudut melengkung */
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #920000;
+}
